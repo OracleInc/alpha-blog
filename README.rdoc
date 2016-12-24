@@ -1,0 +1,3 @@
+This is a repository for a test blog app I'm working on.
+
+Completely built in rails.

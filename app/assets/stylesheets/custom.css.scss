@@ -1,0 +1,76 @@
+
+$navbar-default-bg: #17202a;
+$navbar-default-font: #FFFFFF;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo{
+  float: left;
+  fot-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  fonr-weight: bold;
+}
+
+#logo:hover{
+  color: #eee;
+  text-decoration: none;
+}
+
+.center{
+  text-align: center;
+}
+.jumbotron{
+  background-image: asset-url('leaf.jpg ');
+  background-size: cover;
+  height: 600px;
+}
+.btn-xlarge{
+  font-size: 2em;
+  background-color: black;
+
+}
+.jumbotron h1{
+  color: #eee;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 10px;
+}
+.description {
+  margin-top: 0px;
+}
+.article-title {
+  font-weight: bold;
+  font-size:1.5em;
+  
+}
+.article-body {
+border-top: 1px solid #eaeaea;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.footer{
+  margin-top: 50px;
+  padding-top: 10px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+.footer a:hover{
+  color: #222;
+}
+.footer small{
+  float: left;
+}
+footer ul{
+  float:right;
+  list-style: none;
+}
