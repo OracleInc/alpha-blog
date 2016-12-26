@@ -11,4 +11,11 @@
   <%= @user.username %>'s articles
 </h4>
 
-<%= render 'articles/article', object: @user.articles %>
+<div align="center">
+<%= will_paginate @user_articles%>
+</div>
+<%= render 'articles/article', object: @user_articles %>
+
+<div align="center">
+<%= will_paginate @user_articles%>
+</div>

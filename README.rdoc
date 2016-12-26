@@ -1,16 +1,20 @@
 This is a rails project for a blog that logs in users, allows them to post articles and edit them.
 
 # Prerequisites
-⋅⋅* `Ruby ~=2.1`
-⋅⋅* `Rails ~=v.4.2.5.1`
+* `Ruby ~=2.1`
+* `Rails ~=v.4.2.5.1`
 
 # Installation
 Run this command on your terminal to clone the repository
-..*`git clone  https://github.com/OracleInc/alpha-blog.git`
-Run bundle install to install the necessary gem files
-⋅⋅`*bundle install`
-*Run the server
-⋅⋅`*rails s`
+`git clone  https://github.com/OracleInc/alpha-blog.git`
+
+Run bundle install to install the necessary gem files.
+
+`bundle install`
+
+Run the server
+
+`*rails s`
 
 
 
