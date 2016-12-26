@@ -1,6 +1,21 @@
 
 <h2 align="center"><%= @article.title %></h2>
+
 <div class="well col-xs-8 col-xs-offset-2">
+<% if @article.user%>
+<ul class="listing">
+  <div class="row center">
+  <li>Created by:</li>
+    <div class=" col-md-4 col-md-offset-4">
+    <li><%= link_to gravatar_for(@article.user), user_path(@article.user)%></li>
+    <li class="article-title">
+      <%= link_to @article.user.username, user_path(@article.user)%>
+    </li>
+      <li><small><%= pluralize(@article.user.articles.count, "article") if @article.user.articles%></small></li>
+    </div>
+  </div>
+</ul>
+<% end  %>
 <h4 class="center" class="description"><strong>Description:</strong></h4>
 <hr>
 
@@ -12,4 +27,5 @@
                                 data: {confirm: "Are you like really sure?"},
                                 class: "btn btn-xs btn-danger" %>
   <%= link_to 'View All articles', articles_path, class:"btn btn-xs btn-success" %>
+  </div>
   </div>
